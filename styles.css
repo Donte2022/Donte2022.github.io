@@ -57,6 +57,8 @@ div.border {
 
 .flex-container {
     display: flex;
+    /* flex-direction:colum */
+    justify-content: flex-start;
 }
 
 .skills{
@@ -69,4 +71,17 @@ div.border {
 
 .education{
     text-align: right;
+}
+
+.childOne{
+    background-color: red;
+
+}
+
+.childTwo{
+    background-color: blueviolet;
+}
+
+#aboutMe {
+    justify-content: right;
 }
