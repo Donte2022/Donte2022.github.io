@@ -20,8 +20,8 @@ body {
 }
 
 p {
-    padding: 0px;
-    margin: 100px;
+    padding: 35px;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
@@ -34,13 +34,22 @@ div.border {
     background-color: rgb(240, 235, 212);
     padding: 5px;
     border-radius: 25px;
+    border: 5px seagreen;
+    border-style: solid;
 }
 
-.container
+b{
+    color: rgb(34, 100, 63);
+}
+
+p{
+    color: seagreen
+}
+
 
 .header {
     text-align: center;
-    font-size:xx-large;
+    font-size: 45px;
 }
 
 .name{
@@ -49,6 +58,9 @@ div.border {
 
 .contact{
     text-align: right;
+    border-right: thick dashed seagreen ;
+
+    
 }
 
 .profile {
@@ -57,12 +69,14 @@ div.border {
 
 .flex-container {
     display: flex;
-    /* flex-direction:colum */
     justify-content: flex-start;
 }
 
 .skills{
     text-align: right;
+    border-right: thick dashed seagreen ;
+    /* border-bottom: thick dashed seagreen; */
+
 }
 
 .experience{
@@ -71,17 +85,22 @@ div.border {
 
 .education{
     text-align: right;
+    border-right: thick dashed seagreen ;
+
+}
+
+hr{
+    border-bottom: thick dashed seagreen;
+    width: auto;
 }
 
 .childOne{
-    background-color: red;
-
+    flex-direction: column;
+    /* border-right: thick dashed seagreen ; */
 }
 
 .childTwo{
-    background-color: blueviolet;
-}
-
-#aboutMe {
-    justify-content: right;
+    /* border-left: thick solid  seagreen; */
+    flex-direction: column;
+    align-items: stretch;
 }
