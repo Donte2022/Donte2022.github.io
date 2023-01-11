@@ -50,6 +50,7 @@ p{
 .header {
     text-align: center;
     font-size: 45px;
+    border-bottom: thick dashed seagreen;
 }
 
 .name{
@@ -58,13 +59,17 @@ p{
 
 .contact{
     text-align: right;
-    border-right: thick dashed seagreen ;
+    border-right: thick dashed seagreen;
+    /* border-top: thick dashed seagreen; */
+    border-width: 90%;
 
-    
 }
 
 .profile {
     text-align: left;
+    /* border-top: thick dashed seagreen;
+    border-top-width: 90%; */
+
 }
 
 .flex-container {
@@ -75,32 +80,32 @@ p{
 .skills{
     text-align: right;
     border-right: thick dashed seagreen ;
-    /* border-bottom: thick dashed seagreen; */
-
+    border-width: 90%;
 }
 
 .experience{
     text-align: left;
+    /* border-width: 90%; */
+
 }
 
 .education{
     text-align: right;
     border-right: thick dashed seagreen ;
+    border-width: 90%;
 
 }
 
 hr{
     border-bottom: thick dashed seagreen;
-    width: auto;
+    width: 90%;
 }
 
 .childOne{
     flex-direction: column;
-    /* border-right: thick dashed seagreen ; */
 }
 
 .childTwo{
-    /* border-left: thick solid  seagreen; */
     flex-direction: column;
     align-items: stretch;
 }
