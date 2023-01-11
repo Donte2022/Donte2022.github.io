@@ -16,7 +16,6 @@ body {
     background-color: rgb(211, 236, 216);
     margin: 70px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
 }
 
 p {
@@ -61,7 +60,7 @@ p{
     text-align: right;
     border-right: thick dashed seagreen;
     /* border-top: thick dashed seagreen; */
-    border-width: 90%;
+    border-width: 93%;
 
 }
 
@@ -80,29 +79,27 @@ p{
 .skills{
     text-align: right;
     border-right: thick dashed seagreen ;
-    border-width: 90%;
+    border-width: 93%;
 }
 
 .experience{
     text-align: left;
-    /* border-width: 90%; */
-
 }
 
 .education{
     text-align: right;
     border-right: thick dashed seagreen ;
-    border-width: 90%;
-
+    border-width: 93%;
 }
 
 hr{
     border-bottom: thick dashed seagreen;
-    width: 90%;
+    width: 93%;
 }
 
 .childOne{
     flex-direction: column;
+    flex-shrink: 3;
 }
 
 .childTwo{
