@@ -1,0 +1,108 @@
+h1 {
+    color: green;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+h3 {
+    color: green;
+    margin: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+body {
+    background-color: rgb(211, 236, 216);
+    margin: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 35px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+ul {
+    margin: 70px;
+}
+
+div.border {
+    background-color: rgb(240, 235, 212);
+    padding: 5px;
+    border-radius: 25px;
+    border: 5px seagreen;
+    border-style: solid;
+}
+
+b{
+    color: rgb(34, 100, 63);
+}
+
+p{
+    color: seagreen
+}
+
+
+.header {
+    text-align: center;
+    font-size: 45px;
+    border-bottom: thick dashed seagreen;
+}
+
+.name{
+    font-size: xx-large;
+}
+
+.contact{
+    text-align: right;
+    border-right: thick dashed seagreen;
+    /* border-top: thick dashed seagreen; */
+    border-width: 93%;
+
+}
+
+.profile {
+    text-align: left;
+    /* border-top: thick dashed seagreen;
+    border-top-width: 90%; */
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.skills{
+    text-align: right;
+    border-right: thick dashed seagreen ;
+    border-width: 93%;
+}
+
+.experience{
+    text-align: left;
+}
+
+.education{
+    text-align: right;
+    border-right: thick dashed seagreen ;
+    border-width: 93%;
+}
+
+hr{
+    border-bottom: thick dashed seagreen;
+    width: 93%;
+}
+
+.childOne{
+    flex-direction: column;
+    flex-shrink: 3;
+}
+
+.childTwo{
+    flex-direction: column;
+    align-items: stretch;
+}

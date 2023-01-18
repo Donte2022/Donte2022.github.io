@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "DontaviousGreenResume"]
+	url = git@github.com:Donte2022/Donte2022.github.io.git
+	fetch = +refs/heads/*:refs/remotes/DontaviousGreenResume/*
+[branch "master"]
+	remote = DontaviousGreenResume
+	merge = refs/heads/master
